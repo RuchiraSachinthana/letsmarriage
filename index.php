@@ -28,11 +28,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div class="w3ls-content">
 	<div class="w3ls-headding">
 		<h2> <img src="images/5b9d320a2000002d00fdde0f.jpeg"></h2>
-		<p>We are launching the most awesome site ever. It's gonna be legendary</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae nisi fuga quis dicta atque corporis et qui facilis suscipit neque iste consequatur quasi, officiis inventore dolorem labore ullam sint.</p>
 	</div>
 	
 </div>
 
-<footer>&copy; 2020 Online Marriage Registration System</footer>
+<footer>&copy; 2021 Online Marriage Registration System</footer>
 </body>
 </html>
