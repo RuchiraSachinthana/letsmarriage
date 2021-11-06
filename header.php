@@ -19,7 +19,7 @@
 
     </style>
 
-    <title>Hello, world!</title>
+    <title>Online Marriage System</title>
   </head>
   <body>
     

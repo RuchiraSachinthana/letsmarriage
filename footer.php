@@ -161,7 +161,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <span>  Copyright © 2019, All Right Reserved RUCHIRA</span>
+                        <span>  Copyright © 2021, All Right Reserved Online marriage system | Developed by <a href="https://ruchiras.com/" target="_blank">RUCHIRA</a></span>
                     </div>
                     <!-- End Col -->
                     <div class="col-md-6">
