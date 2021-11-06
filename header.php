@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="footer.css">
+
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/><!--stylesheet-->
+	<link rel="stylesheet" href="css/font-awesome.css"><!--font_aswesome_icons-->
+	<link href="//fonts.googleapis.com/css?family=Basic" rel="stylesheet"><!--online-fonts-->
+	
+	<link href="//fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <script src="//code-eu1.jivosite.com/widget/5sv9pFb4ZW" async></script> 
     <style>
 
