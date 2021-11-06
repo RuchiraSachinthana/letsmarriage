@@ -47,7 +47,7 @@
                     <!-- End Footer info -->
                     <div class="footer-awarad">
                         <img src="images/icon/best.png" alt="">
-                        <p>Best Design Company 2019</p>
+                        <p>Best Design Company 2021</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -60,7 +60,7 @@
                                 </div>
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
-                                    <h3>Jaipur India</h3>
+                                    <h3>Sri Lanka</h3>
                                     <p>5353 Road Avenue</p>
                                 </div>
                                 <!-- End Contact Info -->

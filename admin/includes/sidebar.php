@@ -20,7 +20,7 @@
                 <span>Application</span>
               </a>
               <ul class="nav-sub">
-                <li class="nav-item"><a href="new-marriage-application.php" class="nav-link">New Application</a></li>
+                <li class="nav-item"><a href="new-marriage-application.php" class="nav-link active">New Application</a></li>
                 <li class="nav-item"><a href="verified-marriage-application.php" class="nav-link active">Verified Application</a></li>
                 <li class="nav-item"><a href="rejected-marriage-application.php" class="nav-link active">Rejected Application</a></li>
                 <li class="nav-item"><a href="all-marriage-application.php" class="nav-link active">All Application</a></li>
