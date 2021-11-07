@@ -40,7 +40,7 @@
                         <p>Do you have new project? Or you need help?<br>Or just want to say hi, here is the form.</p>
 
                         <!-- form eka start -->
-                        <form>
+                        <form method="post">
                             <div class="form-row">
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="Name" name="name">
