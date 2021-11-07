@@ -30,21 +30,20 @@ echo "<script>alert('Email id or Mobile no is invalid');</script>";
 }
 
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Marriage Registration System|| Admin Forgot Password Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme22.css">
 
-    <title>Admin || Forgot Password Page</title>
-
-    <!-- vendor css -->
-    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-
-    <!-- Amanda CSS -->
-    <link rel="stylesheet" href="css/amanda.css">
-    <script type="text/javascript">
+   <script type="text/javascript">
 function valid()
 {
 if(document.chngpwd.newpassword.value!= document.chngpwd.confirmpassword.value)
@@ -56,60 +55,61 @@ return false;
 return true;
 }
 </script>
-  </head>
 
-  <body>
-
-    <div class="am-signin-wrapper">
-      <div class="am-signin-box">
-        <div class="row no-gutters">
-         <div class="col-lg-5">
-            <div>
-              <h2>OMRS</h2>
-              <p>Reset Your Passowrd</p>
-              <p>Please fill the following detail to reset the password.</p>
-
-              <hr>
-              <p>Already have an account| <br> <a href="login.php">Sign In</a></p>
+</head>
+<body>
+    <div class="form-body without-side">
+        <div class="">
+            <a href="index.html">
+                <div class="logo">
+                    <img class="logo-size" src="images/" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <img src="images/graphic3.svg" alt="">
+                </div>
             </div>
-          </div>
-          <div class="col-lg-7">
-            <h5 class="tx-gray-800 mg-b-25">Signin to Your Account</h5>
- <form class="form-auth-small" action="" method="post" name="chngpwd" onSubmit="return valid();">
-            <div class="form-group">
-              <label class="form-control-label">Email:</label>
-              <input type="email" class="form-control" placeholder="Email Address" required="true" name="email">
-            </div><!-- form-group -->
-
-            <div class="form-group">
-              <label class="form-control-label">Mobile Number:</label>
-              <input type="text" class="form-control"  name="mobile" placeholder="Mobile Number" required="true">
-            </div><!-- form-group -->
-            <div class="form-group">
-              <label class="form-control-label">New Password:</label>
-              <input class="form-control" type="password" name="newpassword" placeholder="New Password" required="true"/>
-            </div><!-- form-group -->
-            <div class="form-group">
-              <label class="form-control-label">Confirm Password:</label>
-              <input class="form-control" type="password" name="confirmpassword" placeholder="Confirm Password" required="true" />
-            </div><!-- form-group -->
-
-           
-
-            <button type="submit" class="btn btn-block" name="submit">Reset</button>
-             
-          </div>
-         </form>
-        </div><!-- row -->
-       <p class="tx-center tx-white-5 tx-12 mg-t-15">Online Marriage Registration System @ 2020</p>
-      </div><!-- signin-box -->
-    </div><!-- am-signin-wrapper -->
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Reset Admin account Password</h3>
+                        <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                        <form  method="post" name="chngpwd" onSubmit="return valid();">
+                        <input type="email" class="form-control" placeholder="Email Address" required="true" name="email">
+                        <input type="text" class="form-control"  name="mobile" placeholder="Mobile Number" required="true">
+                        <input class="form-control" type="password" name="newpassword" placeholder="New Password" required="true"/>
+                        <input class="form-control" type="password" name="confirmpassword" placeholder="Confirm Password" required="true" />
+                   
+                    <div class="form-button">
+                                <button   name="submit" type="submit" class="ibtn">Reset Password</button> <a href="login.php">Login</a>
+                            </div>
+                        </form>
+                        <div class="other-links">
+                            <div class="text">Or login with</div>
+                            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a>
+                        </div>
+                        <div class="page-links">
+                            <a href="../index.php">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="lib/jquery/jquery.js"></script>
     <script src="lib/popper.js/popper.js"></script>
     <script src="lib/bootstrap/bootstrap.js"></script>
     <script src="lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
     <script src="js/amanda.js"></script>
-  </body>
+</body>
 </html>
