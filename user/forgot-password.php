@@ -18,7 +18,7 @@ if($query -> rowCount() > 0)
 {
 $con="UPDATE tbluser set Password=:newpassword where MobileNumber=:mobile";
 $chngpwd1 = $dbh->prepare($con);
-$chngpwd1-> bindParam(':email', $email, PDO::PARAM_STR);
+$chngpwd1-> bindParam(':mobile', $mobile, PDO::PARAM_STR);
 
 $chngpwd1-> bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
 $chngpwd1->execute();
