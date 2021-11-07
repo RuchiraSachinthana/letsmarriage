@@ -16,7 +16,7 @@ $query-> execute();
 $results = $query -> fetchAll(PDO::FETCH_OBJ);
 if($query -> rowCount() > 0)
 {
-$con="update tbluser set Password=:newpassword where MobileNumber=:mobile";
+$con="UPDATE tbluser set Password=:newpassword where MobileNumber=:mobile";
 $chngpwd1 = $dbh->prepare($con);
 $chngpwd1-> bindParam(':email', $email, PDO::PARAM_STR);
 
