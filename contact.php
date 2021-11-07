@@ -1,3 +1,6 @@
+
+<?php include 'sendemail.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +13,11 @@
     <link rel="stylesheet" type="text/css" href="css/iofrm-theme26.css">
 </head>
 <body>
+
+ <!--alert messages start-->
+ <?php echo $alert; ?>
+    <!--alert messages end-->
+
     <div class="form-body">
         <div class="">
             <a href="index.php">
@@ -35,32 +43,39 @@
                         <form>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="Name" name="name">
                                 </div>
+                               
+                            </div>
+                            <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name">
+                                    <input type="text" class="form-control" placeholder="Email" name="email">
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Email address">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col">
-                                    <textarea class="form-control" placeholder="Description..."></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Description..."></textarea>
                                 </div>
                             </div>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn extra-padding">Send message</button>
+
+                                <button name="submit" id="submit" type="submit" class="ibtn extra-padding">Send message</button>
                             </div>
                         </form>
                          <!-- form eka end -->
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
+     <!--contact section end-->
+
+     <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
