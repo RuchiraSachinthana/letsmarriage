@@ -30,6 +30,7 @@ echo "<script>alert(' Mobile no is invalid');</script>";
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +41,6 @@ echo "<script>alert(' Mobile no is invalid');</script>";
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-theme15.css">
-
 
     <script type="text/javascript">
 function valid()
@@ -54,7 +54,8 @@ return false;
 return true;
 }
 </script>
-  </head>
+
+</head>
 <body>
     <div class="form-body">
         <div class="website-logo">
@@ -69,47 +70,47 @@ return true;
                     <h3>Get more things done with Loggin platform.</h3>
                     <p>Access to the most powerfull tool in the entire design and web industry.<br><br>
                         Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-               <img src="images/graphic1.svg" alt="">
+                        <img src="images/graphic1.svg" alt="">
                     </div>
             </div>
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                    <h3>Password Reset</h3>
-                    <p>To reset your password, enter the mobile number you use to login to sytem</p>
-                        <div class="page-links">
-                      
-                            <a href="login.php">Login</a><a href="forgot-password" class="active">Forgot password</a>
-                            
-                       
-                        </div>
-                        <form action="" method="post" name="chngpwd" onSubmit="return valid();">
-
+                        <h3>Password Reset</h3>
+                        <p>To reset your password, enter the email address you use to sign in to iofrm</p>
+                        <form>
                         <input type="text" class="form-control" placeholder="Mobile Number" required="true" name="mobile">
                         <input class="form-control" type="password" name="newpassword" placeholder="New Password" required="true"/>
                         <input class="form-control" type="password" name="confirmpassword" placeholder="Confirm Password" required="true" />
-                            <div class="form-button">
-                                <button  type="submit" class="ibtn" name="submit">Reset Password</button>
-                                <br><br> <a href="login.php"> Click here for login </a>
+                            <div class="form-button full-width">
+                                <button id="submit" type="submit" class="ibtn btn-forget" name="submit"> Reset Password</button>
+                                <br><br> <a href="login.php">Click here for login </a>
                             </div>
                         </form>
-                        <div class="other-links">
-                            <span>Or login with</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-google"></i></a>
-                        </div>
                     </div>
+                  <!--  <div class="form-sent">
+                        <div class="tick-holder">
+                            <div class="tick-icon"></div>
+                        </div>
+                        <h3>Password Reset Successfull!</h3>
+                        <p>Please Login <a href="login.php">Click here</a></p>
+                        <div class="info-holder">
+                            <span>Do you have any problem?</span> <a href="#">We can help</a>.
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-    <script src="lib/jquery/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="lib/jquery/jquery.js"></script>
     <script src="lib/popper.js/popper.js"></script>
     <script src="lib/bootstrap/bootstrap.js"></script>
     <script src="lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
 
     <script src="js/amanda.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
