@@ -163,7 +163,7 @@
                         <div class="copyright-menu">
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="./admin/login.php">Admin</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms</a>
@@ -172,7 +172,7 @@
                                     <a href="#">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <a href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div>

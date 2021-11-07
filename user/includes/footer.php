@@ -1,4 +1,4 @@
 <div class="am-footer">
-        <span style="color: blue">Online Marriage Registration System @ 2020.</span>
+        <span style="color: blue">Online Marriage Registration System.</span>
         
       </div><!-- am-footer -->
