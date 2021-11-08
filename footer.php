@@ -6,28 +6,18 @@
             <div class="row">
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
-                        <a href="index.html" class="footer-logo">
+                        <a href="index.php" class="footer-logo">
                             <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
                         </a>
                         <p class="footer-info-text">
                            Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
                         </p>
                         <div class="footer-social-link">
-                            <h3>Follow us</h3>
+                            <h3 style="color: black;">Follow us</h3>
                             <ul>
                                 <li>
                                     <a href="#">
                                         <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
@@ -87,20 +77,6 @@
                                     <h3>Useful Links</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
-                                <ul>
-                                    <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Our Team</a>
-                                    </li>
-                                </ul>
                                 <ul>
                                     <li>
                                         <a href="#">Contact us</a>
