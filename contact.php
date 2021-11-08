@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form-Online Marriage System</title>
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2016/12/26/09/40/bride-1931722_1280.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
@@ -65,14 +66,16 @@
             <div class="img-holder">
                 <div class="bg"></div>
                 <div class="info-holder">
+                    <h4><a href="index.php">BACK TO HOME</a></h4>
                     <h2>We’re ready to help you,<br><span>at any moment.</span></h2>
                 </div>
             </div>
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
+                        
                         <h3>Just fill the form.<br>We’ll get back to you.</h3>
-                        <p>Do you have new project? Or you need help?<br>Or just want to say hi, here is the form.</p>
+                        <p>Do you have any problem? Or you need help?<br>Or just want to say hi, here you can send us.</p>
 
                         <!-- form eka start -->
                         <form method="post">
@@ -97,12 +100,16 @@
                                 <button name="submit" id="submit" type="submit" class="ibtn extra-padding">Send message</button>
                             </div>
                         </form>
+
                          <!-- form eka end -->
                         <script type="text/javascript">
     if(window.history.replaceState){
       window.history.replaceState(null, null, window.location.href);
     }
     </script>
+    <div class="page-links">
+                            <a href="index.php">Back to Home</a>
+                        </div>
                     </div>
                 </div>
             </div>

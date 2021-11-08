@@ -12,8 +12,8 @@ if (strlen($_SESSION['omrsaid']==0)) {
 <html lang="en">
   <head>
 
-    <title>Amanda Responsive Bootstrap 4 Admin Template</title>
-
+    <title>Online Marriage Registration System Admin Dashboard</title>
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2016/12/26/09/40/bride-1931722_1280.jpg"/>
     <!-- vendor css -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="lib/Ionicons/css/ionicons.css" rel="stylesheet">

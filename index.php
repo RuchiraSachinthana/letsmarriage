@@ -27,11 +27,11 @@
         <img src="https://cdn.dribbble.com/users/2421983/screenshots/10135332/media/6a6cdd2ddbb6dbbe8cdd77ecd797aa69.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Online Marriage Registration System</h1>
+        <p class="lead" style="color: black;">A great marriage is not when the ‘perfect couple’ comes together. It is when an imperfect couple learns to enjoy their differences.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <button onclick="window.location.href='user/login.php';" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Already a Member</button>
+          <button onclick="window.location.href='user/register.php';" type="button" class="btn btn-outline-secondary btn-lg px-4">New User</button>
         </div>
       </div>
     </div>

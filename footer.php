@@ -7,10 +7,10 @@
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a href="index.php" class="footer-logo">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
+                            <img src="https://cdn.pixabay.com/photo/2016/12/26/09/40/bride-1931722_1280.jpg" alt="footer_logo" class="img-fluid">
                         </a>
                         <p class="footer-info-text">
-                           Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+                        Every single member’s profile is being approved by the site administrator so that you come across only genuine profiles.
                         </p>
                         <div class="footer-social-link">
                             <h3 style="color: black;">Follow us</h3>
@@ -60,7 +60,7 @@
                                 </div>
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
-                                    <h3>95 711 9 5353</h3>
+                                    <h3>94 711 9 5353</h3>
                                     <p>Give us a call</p>
                                 </div>
                                 <!-- End Contact Info -->
@@ -79,7 +79,7 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="#">Contact us</a>
+                                        <a href="contact.php">Contact us</a>
                                     </li>
                                     <li>
                                         <a href="#">Blog</a>
@@ -102,7 +102,7 @@
                                     <span class="animate-border border-black"></span>
                                 </div>
                                 <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                                Registration is absolutely free!!!</p>
                                 <form action="#">
                                     <div class="form-row">
                                         <div class="col dk-footer-form">

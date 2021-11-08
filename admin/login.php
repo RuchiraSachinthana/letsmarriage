@@ -49,6 +49,7 @@ echo "<script>alert('Invalid Details');</script>";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Marriage Registration System|| Admin Sign In Page</title>
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2016/12/26/09/40/bride-1931722_1280.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
@@ -57,7 +58,7 @@ echo "<script>alert('Invalid Details');</script>";
 <body>
     <div class="form-body without-side">
         <div class="">
-            <a href="index.php">
+            <a href="../index.php">
                 <div class="logo">
                     <img class="logo-size" src="images/" alt="">
                 </div>
