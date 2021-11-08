@@ -57,7 +57,7 @@ echo "<script>alert('Invalid Details');</script>";
 <body>
     <div class="form-body without-side">
         <div class="">
-            <a href="index.html">
+            <a href="index.php">
                 <div class="logo">
                     <img class="logo-size" src="images/" alt="">
                 </div>
