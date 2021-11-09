@@ -121,10 +121,9 @@ INSERT INTO `tbluser` (`ID`, `FirstName`, `LastName`, `MobileNumber`, `Address`,
 (1, 'Kamal', 'Silva', 777112233, 'Gampaha, Colombo', '202cb962ac59075b964b07152d2e7b', '2020-04-28 06:12:34'),
 (2, 'Nimal', 'Perera', 777112244, 'Ingiriya road, Padukka ', 'f925916e2754e5e03f75dd58a5733251', '2020-05-02 10:46:08'),
 (3, 'Saman', 'Fernando', 777112255, 'Bidunuwewa, Bandarawela', 'e10adc3949ba59abbe56e057f20f883e', '2021-11-04 18:13:27'),
-(4, 'Ruchira', 'Sachinthana', 778072233, 'Gedara', '5b598866f805b3da5713b3aef0f00777', '2021-11-07 01:58:14'),
-(5, 'Sunila', 'Siripala', 771122337, 'Sunilage gedara', 'f962f8b8a7f6485a38b654d639a2bfc7', '2021-11-07 02:16:05'),
-(7, 'Sachin', 'Silva', 718261048, 'gedara', 'f962f8b8a7f6485a38b654d639a2bfc7', '2021-11-07 03:42:36'),
-(8, 'Sachin', 'Perera', 77112244, 'Gedara', '849153a1b287b22bf64170d267c2d85b', '2021-11-08 17:30:56');
+(4, 'Sunila', 'Siripala', 771122337, 'Sunilage gedara', 'f962f8b8a7f6485a38b654d639a2bfc7', '2021-11-07 02:16:05'),
+(5, 'Sachin', 'Silva', 718261048, 'gedara', 'f962f8b8a7f6485a38b654d639a2bfc7', '2021-11-07 03:42:36'),
+(6, 'Sachin', 'Perera', 77112244, 'Gedara', '849153a1b287b22bf64170d267c2d85b', '2021-11-08 17:30:56');
 
 --
 -- Indexes for dumped tables
